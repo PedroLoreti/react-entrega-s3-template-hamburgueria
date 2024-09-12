@@ -1,0 +1,69 @@
+.modalOverlay {
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    inset: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.modalBox {
+    width: clamp(24.313rem, 22.24rem + 8.01vw, 30.25rem);
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+.flexBoxModal {
+    padding: .9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    border-radius: 8px  8px 0 0;
+}
+
+.btnClose {
+    background: transparent;
+    color: #FFFFFF80;
+    border: none;
+}
+
+.containerUl {
+    padding: 14px;
+    
+}
+
+.containerItens {
+    display: flex;
+    flex-direction: column;
+    gap: .875rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--grey-100);
+}
+
+.containerTotal {
+    padding: 18px 15px;
+}
+
+.containerValue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnRemoveAll {
+    width: 100%;
+    height: 60px;
+
+    border: none;
+    background: var(--btn-color);
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: .875rem;
+}
+
+.notItems{
+    text-align: center;
+}

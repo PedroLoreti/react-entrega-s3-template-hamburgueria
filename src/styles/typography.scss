@@ -1,0 +1,59 @@
+%heading {
+    font-weight: 700;
+    line-height: 130.769%;
+    color: var(--grey-600);
+}
+
+.heading1 {
+    @extend %heading;
+    font-size: 1.625rem;
+}
+
+.heading2 {
+    @extend %heading;
+    font-size: 1.375rem;
+}
+
+.heading3 {
+    @extend %heading;
+    font-size: 1.125rem;
+}
+
+.heading3.white {
+    color: #FFF;
+}
+
+%text {
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--grey-300);
+}
+
+.headline {
+    @extend %text;
+    font-size: 1rem;
+}
+
+.body {
+    @extend %text;
+    font-size: .875rem;
+}
+
+.body-600 {
+    @extend %text;
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.body-600.green {
+    color: var(--color-primary)
+}
+
+.body-600.grey {
+    color: var(--grey-600)
+}
+
+.caption {
+    @extend %text;
+    font-size: .75rem;
+}

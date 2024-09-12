@@ -1,0 +1,14 @@
+.containerLi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 56px;
+    padding: 0 clamp(1rem, -1.182rem + 8.432vw, 7.25rem);
+
+    @media (max-width: 641px){
+        display: flex;
+        justify-content: center;
+    }
+}
